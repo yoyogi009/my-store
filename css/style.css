@@ -2,7 +2,7 @@
 
 body {
  
-  background-color: gray;
+  background-color: rgba(53, 51, 51, 0.795);
   color: #ef7998;
 }
 
@@ -11,7 +11,16 @@ body {
   font-size: 4rem;
   font-family: 'Kaushan Script';
 }
+.btn-padding{
+  padding: 20px;
+  margin: 25px;
+}
+.btn{ 
+  border: 1px solid ; 
+  padding: 10px;
+  
 
+}
 .btn-pink {
   color:#ef7998 !important;
   border-color: #ef7998 !important;
@@ -28,10 +37,10 @@ body {
   background: #ef7998 !important;
   color: #000 !important;
 }
-
-.store {
-  background-color:#fff;
+.s-box{
+  margin-bottom: 25px;
 }
+
 .img-container {
   position: relative;
   overflow: hidden;
