@@ -1,0 +1,25 @@
+{
+  "name": "yo-store",
+  "version": "1.0.0",
+  "description": "Website tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "Store",
+    "Shop"
+  ],
+  "author": "\"Yogesh Kr Maurya\"",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

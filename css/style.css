@@ -1,0 +1,83 @@
+ @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+:root {
+  --mainPink: #ef7998;
+  --mainYellow: rgb(249, 228, 148);
+  --mainWhite: #fff;
+  --mainBlack: #000;
+  --yellowTrans: rgba(249, 228, 148, 0.5);
+  --mainGrey: rgb(238, 238, 238);
+}
+
+body {
+ 
+  background: var(--mainWhite);
+  color: var(--mainPink);
+}
+
+/*  */
+.banner {
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title {
+  color: var(--mainPink);
+  font-size: 4rem;
+  font-family: 'Kaushan Script';
+}
+.banner-link {
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+.banner-link:hover {
+  background: var(--mainBlack);
+  color: var(--mainPink);
+}
+
+.btn-pink {
+  color: var(--mainPink) !important;
+  border-color: var(--mainPink) !important;
+}
+.btn-black {
+  color: var(--mainBlack) !important;
+  border-color: var(--mainBlack) !important;
+}
+.btn-black:hover {
+  color: var(--mainPink) !important;
+  background: var(--mainBlack) !important;
+}
+.btn-pink:hover {
+  background: var(--mainPink) !important;
+  color: var(--mainBlack) !important;
+}
+/* end of cart buttons */
+
+
+.store {
+  background-color:var(--mainWhite);
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 3px solid #46347D ;
+}
+
+ .img-container:hover .store-img {
+  transform: scale(1.2);
+
+} 
+ 
+ .store-item-value,#store-item-name {
+  color: #F95926 ;
+} 
+/*end of  store items */
+.search-box {
+  background: var(--mainPink);
+  color: var(--mainBlack);
+}
+.card-body{
+  border: 3px solid #F95926 ;
+  background-color: antiquewhite;
+}
