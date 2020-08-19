@@ -16,7 +16,7 @@ body {
   margin: 25px;
 }
 .btn{ 
-  border: 1px solid ; 
+  border: 2px solid ; 
   padding: 10px;
   
 
@@ -27,7 +27,7 @@ body {
 }
 .btn-black {
   color: #000 !important;
-  border-color: #000 !important;
+  border-color: #ca5473 !important;
 }
 .btn-black:hover {
   color: #ef7998 !important;
