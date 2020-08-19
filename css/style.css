@@ -1,61 +1,36 @@
  @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 
-:root {
-  --mainPink: #ef7998;
-  --mainYellow: rgb(249, 228, 148);
-  --mainWhite: #fff;
-  --mainBlack: #000;
-  --yellowTrans: rgba(249, 228, 148, 0.5);
-  --mainGrey: rgb(238, 238, 238);
-}
-
 body {
  
-  background: var(--mainWhite);
-  color: var(--mainPink);
+  background-color: gray;
+  color: #ef7998;
 }
 
-/*  */
-.banner {
-  color: var(--mainWhite);
-  margin-top: -4rem;
-}
 .banner-title {
-  color: var(--mainPink);
+  color: #ef7998;
   font-size: 4rem;
   font-family: 'Kaushan Script';
 }
-.banner-link {
-  font-size: 1.5rem;
-  color: var(--mainBlack);
-  border: 0.2rem solid var(--mainBlack);
-}
-.banner-link:hover {
-  background: var(--mainBlack);
-  color: var(--mainPink);
-}
 
 .btn-pink {
-  color: var(--mainPink) !important;
-  border-color: var(--mainPink) !important;
+  color:#ef7998 !important;
+  border-color: #ef7998 !important;
 }
 .btn-black {
-  color: var(--mainBlack) !important;
-  border-color: var(--mainBlack) !important;
+  color: #000 !important;
+  border-color: #000 !important;
 }
 .btn-black:hover {
-  color: var(--mainPink) !important;
-  background: var(--mainBlack) !important;
+  color: #ef7998 !important;
+  background: #000!important;
 }
 .btn-pink:hover {
-  background: var(--mainPink) !important;
-  color: var(--mainBlack) !important;
+  background: #ef7998 !important;
+  color: #000 !important;
 }
-/* end of cart buttons */
-
 
 .store {
-  background-color:var(--mainWhite);
+  background-color:#fff;
 }
 .img-container {
   position: relative;
@@ -72,10 +47,10 @@ body {
  .store-item-value,#store-item-name {
   color: #F95926 ;
 } 
-/*end of  store items */
+
 .search-box {
-  background: var(--mainPink);
-  color: var(--mainBlack);
+  background: #ef7998;
+  color:#000;
 }
 .card-body{
   border: 3px solid #F95926 ;
